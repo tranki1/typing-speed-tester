@@ -171,6 +171,7 @@ article.intro p:before {
 .timer {
   font-size: 3em;
   font-weight: bold;
+  color: #b0d33b;
 }
 
 #reset {
