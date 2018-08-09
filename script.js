@@ -33,6 +33,17 @@ function runTimer() {
 // Match the text entered with the provided text on the page:
 function spellCheck() {
   let textEntered = testArea.value;
+  let originTextMatch = originText.substring(0, textEntered.length);
+
+  if (textEntered == originText) {
+    testWrapper.style.borderColor = "#B1D248";
+  } else {
+    if (textEntered == originTextMatch) {
+      testWrapper.style.borderColor = "#0E1C2E";
+    } else {
+      testWrapper.style.borderColor = "#E75D23";
+    }
+  }
   console.log(textEntered);
 }
 

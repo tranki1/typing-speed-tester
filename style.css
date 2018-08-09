@@ -156,6 +156,9 @@ article.intro p:before {
 .test-wrapper {
   display: flex;
 }
+.test-wrapper {
+  border: 5px solid grey;
+}
 
 .test-wrapper textarea {
   flex: 1;
